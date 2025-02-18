@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МастерОкна – Окна, двери и строительные материалы</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; }
+    header { background-color: #003366; color: #fff; text-align: center; padding: 20px; }
+    nav { background-color: #0055a5; overflow: hidden; }
+    nav a { float: left; display: block; color: #fff; padding: 14px 20px; text-decoration: none; }
+    nav a:hover { background-color: #0073e6; }
+    .container { width: 90%; max-width: 1200px; margin: 20px auto; }
+    h1, h2, h3 { margin: 0 0 15px; }
+    p { line-height: 1.6; }
+    .services, .products { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .service, .product { background-color: #fff; border: 1px solid #ddd; padding: 15px; width: calc(33% - 40px); box-sizing: border-box; text-align: center; }
+    .product img, .service img { max-width: 100%; height: auto; margin-bottom: 10px; }
+    .contact-section { background-color: #fff; padding: 20px; margin: 20px 0; border: 1px solid #ddd; text-align: center; }
+    .call-buttons a { display: inline-block; background-color: #28a745; color: #fff; padding: 10px 15px; margin: 5px; text-decoration: none; border-radius: 5px; }
+    footer { background-color: #003366; color: #fff; text-align: center; padding: 15px; margin-top: 20px; }
+    @media (max-width: 768px) { .service, .product { width: calc(50% - 40px); } }
+    @media (max-width: 480px) { .service, .product { width: 100%; } nav a { float: none; display: block; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>МастерОкна</h1>
+    <p>Продажа и установка пластиковых окон, дверей, подоконников, панелей, плинтусов и других материалов</p>
+  </header>
+  <nav>
+    <a href="#services">Услуги</a>
+    <a href="#products">Товары</a>
+    <a href="#about">О нас</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+  <div class="container">
+    <!-- Секция услуг -->
+    <section id="services">
+      <h2>Наши услуги</h2>
+      <div class="services">
+        <div class="service">
+          <img src="https://via.placeholder.com/300x200" alt="Бесплатный замер">
+          <h3>Бесплатный замер</h3>
+          <p>Выезжаем на объект, производим точные замеры для окон и дверей.</p>
+        </div>
+        <div class="service">
+          <img src="https://via.placeholder.com/300x200" alt="Изготовление окон и дверей">
+          <h3>Изготовление окон и дверей</h3>
+          <p>Изготавливаем ПВХ окна и двери по вашим размерам и пожеланиям.</p>
+        </div>
+        <div class="service">
+          <img src="https://via.placeholder.com/300x200" alt="Установка">
+          <h3>Установка и монтаж</h3>
+          <p>Быстрая и качественная установка окон, дверей, подоконников и других изделий.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция товаров -->
+    <section id="products">
+      <h2>Наши товары</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="ПВХ окна">
+          <h3>ПВХ окна</h3>
+          <p>Качественные пластиковые окна с разными вариантами стеклопакетов.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="ПВХ двери">
+          <h3>ПВХ двери</h3>
+          <p>Надежные и стильные двери из ПВХ под заказ.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="Подоконники">
+          <h3>Подоконники</h3>
+          <p>Пластиковые и деревянные подоконники под заказ.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="Панели">
+          <h3>Панели</h3>
+          <p>Панели для потолков и стен, ламинаты, напольные покрытия.</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/300x200" alt="Плинтуса">
+          <h3>Плинтуса</h3>
+<p>Напольные и потолочные плинтуса под любые размеры.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- О компании -->
+    <section id="about">
+      <h2>О нас</h2>
+      <p>Наш магазин расположен на строительном рынке "Славянский мир" в Москве, рядом со станцией метро Саларьево. Мы предлагаем широкий ассортимент строительных материалов, включая окна, двери, подоконники, панели и плинтуса. Гарантируем высокое качество товаров и профессиональный сервис.</p>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact-section">
+      <h2>Контакты</h2>
+      <p><strong>Адрес:</strong> г. Москва, поселение Мосрентген, ул. Адмирала Корнилова, 134, строительный рынок
